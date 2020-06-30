@@ -67,13 +67,13 @@ scanned_list=[]
 malicious_url=[]
 not_avail_list=[]
 
-#api_key='8d7185168f9d1b8241fdee1c5729a248562503d49783ea10cfce995acf58186a'
-api_key='a8c31f6b781aca5615f299b85de9147b4415537984a06eaf5b7bbfb1376ca2bf'
+#api_key=''
+api_key=''
 for url in flat_list:
     if url not in scanned_list:
         print(url)
         input_url = 'https://www.virustotal.com/vtapi/v2/url/scan'
-        params = {'apikey': 'a8c31f6b781aca5615f299b85de9147b4415537984a06eaf5b7bbfb1376ca2bf', 'url':url}
+        params = {'apikey': '', 'url':url}
         response = requests.post(input_url, data=params)
        
         print(response)
