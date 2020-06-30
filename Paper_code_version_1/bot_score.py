@@ -45,19 +45,19 @@ tweeter_status_num_by_num_of_status=tweeting_df.total_status_num.tolist()
 #print(tweeter_by_num_of_status)
 
 #print(tweeter_status_num_by_num_of_status[50000])
-#rapidapi_key = "a12f91f4e5msh2ac46e11516f060p113d24jsn794aef1651db"
+#rapidapi_key = ""
 
 tweeter_sample_by_num_of_status=tweeter_by_num_of_status[5001:8001]
 tweeter_status_num_sample_by_num_of_status=tweeter_status_num_by_num_of_status[5001:8001]
 
-rapidapi_key = "1d794e7532msh23d99165feb5188p1d8d51jsn78ff1d9f40f1"
+rapidapi_key = ""
 
 
 twitter_app_auth = {
-    'consumer_key': '5gLN744C9tUvWS8iwJmsyoVyV',
-    'consumer_secret': 'C4HVb5qdKSEI64A4F94mqAoxDpCiRmmEsvgRStjbBaSeK8CS8w',
-    'access_token': '1069716839440232448-hROnAYn4tXivcTkwIdNVuw7sNvVxE5',
-    'access_token_secret': 'Sw66VM16tudODQm76wVyNl1OtAwwEHmbyL8rFvZzOrNc9',
+    'consumer_key': '',
+    'consumer_secret': '',
+    'access_token': '',
+    'access_token_secret': '',
   }
 
 bom = botometer.Botometer(wait_on_ratelimit=True,
